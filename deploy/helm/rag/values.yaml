@@ -187,6 +187,8 @@ llama-stack:
 
 configure-pipeline:
   enabled: true
+  notebook:
+    create: false
   minio:
     secret:
       user: minio_rag_user
